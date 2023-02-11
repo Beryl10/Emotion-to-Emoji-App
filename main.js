@@ -48,15 +48,15 @@ classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models
          speak();
          if(results[0].label == "Happy")
          {
-             document.getElementById("emoji").innerHTML = "&#128522;";
+             document.getElementById("emoji1").innerHTML = "&#128522;";
          }
          if(results[0].label == "Sad")
          {
-             document.getElementById("emoji").innerHTML = "&#128532;";
+             document.getElementById("emoji1").innerHTML = "&#128532;";
          }
          if(results[0].label == "Angry")
          {
-             document.getElementById("emoji").innerHTML = "&#128548;";
+             document.getElementById("emoji1").innerHTML = "&#128548;";
          }
 
          if(results[1].label == "Happy")
